@@ -38,5 +38,18 @@ print("The set of unique tags:", list_of_tags)
 print()
 print("Is code in our set?", "code" in unique_tags)
 
+unique_tags.add("beginner")
+print("The set of unique tags:", unique_tags)
+
+unique_tags.remove("fun")
+print("The set of unique tags:", unique_tags)
 
 print("\n" + "="*50)
+
+# YOUR CODE HERE - Manage tags for a blog post:
+# 1. Create a list of tags with some duplicates, e.g., ["python", "code", "fun", "python", "guide"].
+# 2. Create a set from this list to get the unique tags.
+# 3. A new tag "beginner" needs to be added. Use .add().
+# 4. The "fun" tag is no longer relevant. Remove it.
+# 5. Print the final set of tags.
+# YOUR CODE HERE:
