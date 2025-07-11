@@ -32,9 +32,11 @@ print("\n" + "="*50)
 list_of_tags = ["python", "code", "fun", "python", "guide"]
 unique_tags = set(list_of_tags)
 print("The set of unique tags:", unique_tags)
-
+print()
 unique_tags = set(list_of_tags)
 print("The set of unique tags:", list_of_tags)
+print()
+print("Is code in our set?", "code" in unique_tags)
 
 
 print("\n" + "="*50)
