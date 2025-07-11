@@ -34,7 +34,7 @@ unique_tags = set(list_of_tags)
 print("The set of unique tags:", unique_tags)
 
 unique_tags = set(list_of_tags)
-print("The set of unique tags:", unique_tags)
+print("The set of unique tags:", list_of_tags)
 
 
 print("\n" + "="*50)
