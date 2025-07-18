@@ -1,0 +1,19 @@
+with open('input.txt', 'w') as file:
+    file.write("Morning Everyone,\n")
+    file.write("How are you all?,\n")
+    file.write("I am fine,\n")
+    file.write("Thank you,\n")
+    
+with(open('input.txt', 'r') as file):
+    for line in file:
+        print(line.strip())
+
+print("\n" + "="*50)
+print()
+
+with(open('input.txt', 'a') as file):
+    file.write("Goodbye,\n")
+
+with(open('input.txt', 'r') as file):
+    for line in file:
+        print(line.strip())
