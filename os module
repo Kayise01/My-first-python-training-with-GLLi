@@ -1,0 +1,16 @@
+import os
+data_filename = "my_data.txt"
+if os.path.exists(data_filename):
+    print("File exists")
+else:
+    print("File does not exist")
+
+data_filename = "input.txt"
+if os.path.exists(data_filename):
+    print(f"File {data_filename} exists")
+else:
+    print("File does not exist")
+
+
+
+    
